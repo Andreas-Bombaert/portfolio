@@ -51,7 +51,7 @@ function Experiences() {
             </div>
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h3>Langues</h3>
+              <h2>Langues</h2>
             </div>
             <div>
               <ListGroup variant="flush">
@@ -71,8 +71,7 @@ function Experiences() {
           <Col >
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h1 >Compétences</h1>
-              <h3>Techniques</h3>
+              <h2>Compétences Techniques</h2>
 
               <ListGroup >
                 <ListGroup.Item>
@@ -107,7 +106,7 @@ function Experiences() {
             </div>
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h3>Savoir-être</h3>
+              <h2>Compétences Savoir-être</h2>
 
               <ListGroup >
                 <ListGroup.Item>

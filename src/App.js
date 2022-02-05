@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
@@ -22,7 +21,8 @@ function App() {
         <Route exact path='/experiences' element={<Experiences/>} />
         <Route exact path='/contact' element={<Contact/>} />
         <Route exact path='/portfolio' element={<Portfolio/>} />
-        <Route exact path='/' component={<About/>} />
+        <Route exact path='/' element={<About/>} />
+        
       </Routes>
       </BrowserRouter>
     </>

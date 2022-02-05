@@ -11,7 +11,9 @@ function About() {
                         <div className="w-75 text-center mx-auto p-3 mt-2">
                             <Image
                                 src=
-                                "/media/moi.jpg"
+                                "/media/moi2.jpg"
+                                width="384"
+                                height="455"
                                 rounded
                             />
                         </div>
