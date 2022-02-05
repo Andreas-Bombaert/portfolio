@@ -32,8 +32,7 @@ function About() {
                             Je me présente, Andréas Bombaert, 22 ans. <br></br>
                             Depuis l'adolescence j'ai toujours été passionné par tout ce qui touchait à la technologie
                             et c'est donc naturellement que je me suis dirigé vers des études d'informatique. <br></br>
-                            Après avoir tenté des études de Sciences informatique
-                            à l'EPL je me rendu compte que (au moins) dans un premier temps j'avais besoin d'études plus pratiques et l'EPHEC se trouvait être parfait
+                            Après une première en sciences informatiques à l'EPL je me rendu compte que (au moins) dans un premier temps j'avais besoin d'études plus pratiques et l'EPHEC se trouvait être parfait
                             pour cela.
                         </div>
                         <div className="w-75 text-left mx-auto p-3 mt-2">
