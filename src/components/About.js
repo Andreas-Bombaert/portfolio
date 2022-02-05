@@ -5,18 +5,25 @@ import Image from 'react-bootstrap/Image'
 function About() {
     return (
         <>
-            <Container>
+            <Container responsive>
                 <Row >
-                    <Col md={4}>
-                        <div className="w-75 text-right mx-auto p-3 mt-2">
+                    <Col md={4} style={{ paddingLeft: 0, paddingRight: 0 }}>
+                        <div className="w-75 text-center mx-auto p-3 mt-2">
                             <Image
                                 src=
                                 "/media/moi.jpg"
                                 rounded
                             />
                         </div>
+                        <br></br>
+                        <br></br>
+                        <div className="w-75 text-left mx-auto p-3 mt-2">
+                            <h3>Hobbies</h3>
+                            Scoutisme, Organisation d’événements estudiantins, rédaction d’un
+                            hebdomadaire estudiantin, vélo, jeux-vidéos, Musique (batterie)
+                        </div>
                     </Col>
-                    <Col md={8}>
+                    <Col md={8} style={{ paddingLeft: 100, paddingRight: 0 }}>
 
                         <div className="w-75 text-left mx-auto p-3 mt-2">
                             <h1>ANDREAS BOMBAERT</h1>
@@ -34,7 +41,22 @@ function About() {
                                 <ListGroup.Item>Mail : abombaert@hotmail.com</ListGroup.Item>
                                 <ListGroup.Item>Téléphone : +32 470 69 39 27</ListGroup.Item>
                                 <ListGroup.Item>Adresse : Rue de la prévoyance, 5000 Namur</ListGroup.Item>
-                            </ListGroup> 
+                            </ListGroup>
+                        </div>
+
+                        <div className="w-75 text-left mx-auto p-3 mt-2">
+                            <h3>Formation</h3>
+                            <ListGroup variant="flush">
+                                <ListGroup.Item>
+                                    <span class="text-white bg-dark">2019 - Aujourd'hui </span> <br></br>
+                                    EPHEC Louvain-La-Neuve - Bachelier en Technologie de l'informatique
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <span class="text-white bg-dark">2011 - 2017 </span> <br></br>
+                                    Sainte-Marie Namur - CESS
+                                </ListGroup.Item>
+
+                            </ListGroup>
                         </div>
                     </Col>
 

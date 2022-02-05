@@ -11,8 +11,8 @@ function NavbarComp() {
               <Nav className="m-auto">
                 <Nav.Link href="/about">A propos</Nav.Link>
                 <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                <Navbar.Brand href="/about">AB</Navbar.Brand>
-                <Nav.Link href="/experiences">Expériences</Nav.Link>
+                <Navbar.Brand href="/about" style={{ paddingLeft: 20, paddingRight: 0 }}>AB</Navbar.Brand>
+                <Nav.Link href="/experiences">Expérience</Nav.Link>
                 <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
