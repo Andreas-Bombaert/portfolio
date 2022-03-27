@@ -2,6 +2,7 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap'
 import FigureImage from 'react-bootstrap/FigureImage'
 import Image from 'react-bootstrap/Image'
 
+
 function About() {
     return (
         <>
@@ -11,19 +12,14 @@ function About() {
                         <div className="w-75 text-center mx-auto p-3 mt-2">
                             <Image
                                 src=
-                                "/media/moi2.jpg"
+                                "/media/moiplusoumcorpo.jpg"
+                                
                                 width="384"
                                 height="455"
                                 rounded
                             />
                         </div>
-                        <br></br>
-                        <br></br>
-                        <div className="w-75 text-left mx-auto p-3 mt-2">
-                            <h3>Hobbies</h3>
-                            Scoutisme, Organisation d’événements estudiantins, rédaction d’un
-                            hebdomadaire estudiantin, vélo, jeux-vidéos, Musique (batterie)
-                        </div>
+
                     </Col>
                     <Col md={8} style={{ paddingLeft: 100, paddingRight: 0 }}>
 
@@ -45,6 +41,19 @@ function About() {
                             </ListGroup>
                         </div>
 
+
+                    </Col>
+
+                </Row>
+                <Row>
+                    <Col md={4}>
+                        <div className="w-75 text-left mx-auto p-3 mt-2">
+                            <h3>Hobbies</h3>
+                            Scoutisme, Organisation d’événements estudiantins, rédaction d’un
+                            hebdomadaire estudiantin, vélo, jeux-vidéos, Musique (batterie)
+                        </div>
+                    </Col>
+                    <Col md={8} style={{ paddingLeft: 100, paddingRight: 0 }}>
                         <div className="w-75 text-left mx-auto p-3 mt-2">
                             <h3>Formation</h3>
                             <ListGroup variant="flush">
@@ -60,7 +69,6 @@ function About() {
                             </ListGroup>
                         </div>
                     </Col>
-
                 </Row>
             </Container>
 

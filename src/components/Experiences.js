@@ -8,9 +8,7 @@ function Experiences() {
         <Row >
           <Col >
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h1>Expériences de travail</h1>
-            </div>
-            <div>
+              <h2 className="text-center">Expériences de travail</h2>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <span class="text-white bg-dark">Septembre 2021 - Maintenant</span>
@@ -51,9 +49,7 @@ function Experiences() {
             </div>
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h2>Langues</h2>
-            </div>
-            <div>
+              <h2 className="text-center">Langues</h2>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   Français - Langue maternelle
@@ -61,17 +57,22 @@ function Experiences() {
                 <ListGroup.Item>
                   Anglais - Bon niveau
                 </ListGroup.Item>
+                <ListGroup.Item>
+                  Néerlandais - Bases
+                </ListGroup.Item>
 
               </ListGroup>
             </div>
 
 
-            
+
+
+
           </Col>
           <Col >
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h2>Compétences Techniques</h2>
+              <h2 className="text-center">Compétences Techniques</h2>
 
               <ListGroup >
                 <ListGroup.Item>
@@ -88,6 +89,14 @@ function Experiences() {
                 </ListGroup.Item>
 
                 <ListGroup.Item>
+                  Utilisation et développement Intersystems IRIS avec ObjectScript
+                </ListGroup.Item>
+
+                <ListGroup.Item>
+                  Manipulation de données avec R
+                </ListGroup.Item>
+
+                <ListGroup.Item>
                   Développement en C - Bases
                 </ListGroup.Item>
 
@@ -97,16 +106,19 @@ function Experiences() {
                 </ListGroup.Item>
 
                 <ListGroup.Item>
-                  Bases de données : Bases en MySQL, utilisation de FireBase
+                  Bases de données : Bases en MySQL, utilisation de FireBase, Google Cloud
                 </ListGroup.Item>
                 <ListGroup.Item>
                   Organisation et gestion de stocks
                 </ListGroup.Item>
               </ListGroup>
             </div>
+            <br></br>
+
+
 
             <div className="w-75 text-left mx-auto p-3 mt-2">
-              <h2>Compétences Savoir-être</h2>
+              <h2 className="text-center">Savoir-être</h2>
 
               <ListGroup >
                 <ListGroup.Item>
@@ -133,9 +145,18 @@ function Experiences() {
               </ListGroup>
             </div>
 
-
           </Col>
 
+        </Row>
+
+        <Row>
+          <Col>
+            
+
+          </Col>
+          <Col>
+            
+          </Col>
         </Row>
       </Container>
 
