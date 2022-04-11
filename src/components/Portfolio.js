@@ -18,6 +18,7 @@ function Portfolio() {
                             <tr>
                                 <th>Thème</th>
                                 <th>Activité</th>
+                                <th>Dates</th>
                                 <th>Heures valorisées</th>
                                 <th>Heures réelles</th>
                                 <th>Preuve</th>
@@ -27,60 +28,112 @@ function Portfolio() {
                             <tr>
                                 <th>Animation</th>
                                 <td>Scoutisme</td>
+                                <td>Années 2007-2022</td>
                                 <td>10h</td>
                                 <td>+900h</td>
-                                <td>3 ans @ www.scoutssalzinnes.be</td>
+                                <td>3 ans @ <a href="https://www.scoutssalzinnes.be">scoutssalzinnes.be</a></td>
                             </tr>
                             <tr>
-                                <th>Cours de langue</th>
-                                <td>Cours de suédois</td>
-                                <td>xh</td>
-                                <td>xh</td>
-                                <td></td>
+                                <th>Echange international</th>
+                                <td>Semaine internationale</td>
+                                <td>1-5 mars 2021</td>
+                                <td>10h</td>
+                                <td>30h</td>
+                                <td><a href="/media/cardiff.jpg"> Certificat</a></td>
                             </tr>
                             <tr>
                                 <th>Bénévolat</th>
                                 <td>Organisation d'événements @ Cercle industriel</td>
-                                <td>10h</td>
+                                <td>Année 2021-2022</td>
+                                <td>2h</td>
                                 <td>+200h</td>
-                                <td>www.cercle-industriel.be/comites</td>
+                                <td>1 an @ <a href="https://www.cercle-industriel.be/comites"> Cercle Industriel</a></td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td>Rédaction d'un hebdomadaire étudiant @ Cercle industriel</td>
+                                <td>Année 2021-2022</td>
                                 <td>0h</td>
                                 <td>50h</td>
-                                <td>www.cercle-industriel.be</td>
+                                <td><a href="https://www.cercle-industriel.be/comites"> Cercle Industriel</a></td>
                             </tr>
                             <tr>
                                 <th>Développement</th>
                                 <td>Projets personnels</td>
+                                <td>Année 2021-2022</td>
                                 <td>10h</td>
                                 <td>40h</td>
-                                <td>https://github.com/Andreas-Bombaert</td>
+                                <td><a href="https://github.com/Andreas-Bombaert/longneaux-bot">Repo GitHub</a></td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td>Maintenance du site web @ Cercle Industriel</td>
+                                <td>Année 2021-2022</td>
                                 <td>0h</td>
                                 <td>20h</td>
-                                <td>www.cercle-industriel.be</td>
+                                <td><a href="https://www.cercle-industriel.be"> Site du cercle</a></td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>Mise en place du site de la Caracole Namuroise</td>
+                                <td>Mise en place et maintenance du site de la Caracole Namuroise</td>
+                                <td>Année 2021-2022</td>
                                 <td>0h</td>
                                 <td>20h</td>
-                                <td>www.caracole-namuroise.be</td>
+                                <td><a href="https://www.caracole-namuroise.be">Site de la Caracole Namuroise</a></td>
+                            </tr>
+                            <tr>
+                                <th>Formations en ligne</th>
+                                <td>Gérez votre projet avec une équipe Scrum</td>
+                                <td>Avril</td>
+                                <td>8h</td>
+                                <td>8h</td>
+                                <td><a href="/media/openclassrooms.png">Preuve OpenClassrooms</a></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Initiation à Linux</td>
+                                <td>Avril 2022</td>
+                                <td>8h</td>
+                                <td>8h</td>
+                                <td><a href="/media/openclassrooms.png">Preuve OpenClassrooms</a></td>
                             </tr>
                             <tr>
                                 <th>Conférences & Meetings</th>
                                 <td>Linux install party du Louvain-Linux</td>
+                                <td>Octobre 2019</td>
+                                <td>1h</td>
+                                <td>1h</td>
+                                <td>Linux sur mon ancien PC</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>Conférence Entreprenariat CCII</td>
+                                <td>Mars 2022</td>
                                 <td>1h</td>
                                 <td>1h</td>
                                 <td></td>
                             </tr>
+                            <tr>
+                                <th>Hardware et Electronique</th>
+                                <td>Montage de PC</td>
+                                <td>Novembre et Décembre 2020</td>
+                                <td>10h</td>
+                                <td>10h</td>
+                                <td>Photos des pc en question</td>
+                            </tr>
+
+
                         </tbody>
+                        <thead>
+                            <tr>
+                                <th>Total</th>
+                                <td></td>
+                                <td></td>
+                                <th>60h</th>
+                                <th>+1250h</th>
+                                <td></td>
+                            </tr>
+                        </thead>
                     </Table>
                 </div>
             </Row>
@@ -129,6 +182,29 @@ function Portfolio() {
 
                         <Carousel.Caption>
                             <h3 class="text-white bg-dark">Site web de l'Ordre de la Caracole Namuroise</h3>
+                        </Carousel.Caption>
+
+                    </Carousel.Item>
+                    <Carousel.Item >
+                        <img
+                            className=" d-block w-75 mx-auto p-3 mt-2"
+                            src="/media/openclassrooms.png"
+                            alt="Formations sur openclassrooms"
+                        />
+
+                        <Carousel.Caption>
+                            <h3 class="text-white bg-dark">Formations sur OpenClassrooms</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item >
+                        <img
+                            className=" d-block w-75 mx-auto p-3 mt-2"
+                            src="/media/cardiff.jpg"
+                            alt="Semaine Internationale"
+                        />
+
+                        <Carousel.Caption>
+                            <h3 class="text-white bg-dark">Semaine Internationale</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

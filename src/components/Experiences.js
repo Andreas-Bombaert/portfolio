@@ -55,7 +55,7 @@ function Experiences() {
                   Français - Langue maternelle
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Anglais - Bon niveau
+                  Anglais - B2
                 </ListGroup.Item>
                 <ListGroup.Item>
                   Néerlandais - Bases
