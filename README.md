@@ -1,3 +1,3 @@
-Little React app hosted on Apache server container on my VPS, this website will be used for my portfolio I will have to do for my classes.
+A little React app made as a Portfolio for my 3rd year at EPHEC - Louvain-la-Neuve
 
 You can see it [there](https://www.andreas-bombaert.be "Andreas Bombaert Website")
