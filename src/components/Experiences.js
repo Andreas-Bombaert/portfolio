@@ -76,7 +76,7 @@ function Experiences() {
 
               <ListGroup >
                 <ListGroup.Item>
-                  Programmation Python & Kotlin
+                  Programmation Python, Kotlin et Ruby
 
                 </ListGroup.Item>
 

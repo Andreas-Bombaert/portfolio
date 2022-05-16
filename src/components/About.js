@@ -10,6 +10,7 @@ function About() {
                 <Row >
                     <Col md={4} style={{ paddingLeft: 0, paddingRight: 0 }}>
                         <div className="w-75 text-center mx-auto p-3 mt-2">
+                            <a href="/media/moiplusoumcorpo.jpg">
                             <Image
                                 src=
                                 "/media/moiplusoumcorpo.jpg"
@@ -18,6 +19,7 @@ function About() {
                                 height="455"
                                 rounded
                             />
+                            </a>
                         </div>
 
                     </Col>
