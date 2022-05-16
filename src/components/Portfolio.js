@@ -1,4 +1,4 @@
-import { Table, Tab, Row, Carousel, Popover, OverlayTrigger, Button, Modal } from 'react-bootstrap';
+import { Table, Row, Carousel, Button } from 'react-bootstrap';
 import React, { useState } from 'react';
 
 function Portfolio() {
@@ -8,46 +8,6 @@ function Portfolio() {
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
-
-
-    const pop_openclassrooms = (
-        <Popover id="popover-basic">
-            <Popover.Header as="h3">OpenClassrooms</Popover.Header>
-            <Popover.Body>
-                Afin de faciliter ma compréhension pour certaines matières et m'assurer de les avoir bien assimilées, j'ai effectué une formation à Linux et une en Scrum sur le site d'Open Classrooms
-            </Popover.Body>
-        </Popover>
-    );
-
-    const pop_codeacademy = (
-        <Popover id="popover-basic">
-            <Popover.Header as="h3">CodeAcademy</Popover.Header>
-            <Popover.Body>
-                Après avoir discuté avec une personne travaillant chez BeLighted, j'ai appris que Ruby On Rails était un langage très demandé dans le monde des SaaS, j'ai donc décidé d'apprendre les bases
-                de ce langage sur CodeAcademy afin de me rendre plus vendeur le jour ou je chercherai du travail.
-            </Popover.Body>
-        </Popover>
-    );
-
-    const pop_conferences = (
-        <Popover id="popover-basic">
-            <Popover.Header as="h3">Conférences</Popover.Header>
-            <Popover.Body>
-                Lors de ma première année à l'Ephec j'ai participé à l'install party du Louvain-Linux afin d'avoir une distribution Unix en dual boot sur mon pc pour certains cours,
-                j'ai malheureusement perdu ma preuve mais Linux fut bien installé sur mon pc!
-                J'ai également assisté à une conférence sur l'entreprenariat ou j'ai pu découvrir que ce n'était pas un milieu aussi fermé que je le croyais.
-            </Popover.Body>
-        </Popover>
-    );
-
-    const pop_montage_pc = (
-        <Popover id="popover-basic">
-            <Popover.Header as="h3">Montage d'ordinateurs</Popover.Header>
-            <Popover.Body>
-                L'année dernière j'ai eu l'occasion de monter le pc d'un ami proche, ainsi que le mien, me permettant de me mettre à jour en ce qui concerne le montage de pc, le dernier que j'ai pu monter avant cela étant en 2016
-            </Popover.Body>
-        </Popover>
-    );
 
     return (
         <>
