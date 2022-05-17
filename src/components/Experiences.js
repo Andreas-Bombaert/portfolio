@@ -1,3 +1,4 @@
+import { Button } from 'react-bootstrap';
 import { Container, Row, Col, Table, ListGroup, ListGroupItem } from 'react-bootstrap'
 
 
@@ -62,6 +63,9 @@ function Experiences() {
                 </ListGroup.Item>
 
               </ListGroup>
+            </div>
+            <div className="w-75 text-center mx-auto p-3 mt-2">
+              <Button variant="secondary" href="/downloads/CV-Andreas-Bombaert.pdf" download> Téléchargez mon CV ici</Button>
             </div>
 
 
